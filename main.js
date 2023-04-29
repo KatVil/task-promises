@@ -42,7 +42,6 @@
     drawB(loading);
     drawC(loading);
     drawD(loading);
-    //  setTitle("Done");
     const loadAndDraw = await Promise.all([
       loadA().then((result) => drawA(result)),
       loadB().then((result) => drawB(result)),
